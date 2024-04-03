@@ -9,10 +9,10 @@ import likeactive from '../img/1555605-200.svg'
 
 
 export default function Reproducao() {
-    const [filter, setFilter] = useState('');
-    const [videos, setVideos] = useState([
+   const [filter, setFilter] = useState('');
+   const [videos, setVideos] = useState([
       { id: 1, title: "the last of us gameplay | Ep1", src:<VideoPlayer src={videoo} />,  channelName: 'MrBeast', channelImg: <img  id='channelimg'  src={imgchannel} />, videoinfo: '312 mil visualizações há 1 ano', verificado: <img id='verificado' title='Verificado no YouPlay' src={verificado} />, inscritos: '646 mil inscritos'},
-    ]);
+   ]);
 
 
 
