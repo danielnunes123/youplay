@@ -55,9 +55,9 @@ useEffect(
 
 const LinksPaginas=(pg)=>{
 if(pg==1){
-  window.open('http://https://you-play.vercel.app?1', '_self')
+  window.open('http://localhost:3000?1', '_self')
 }else if(pg==2){
-  window.open('http://https://you-play.vercel.app?2', '_self')
+  window.open('http://localhost:3000?2', '_self')
 }
 }
 
